@@ -1,0 +1,205 @@
+@import url("./variables.css");
+@import url("./buttons.css");
+
+@font-face {
+  font-family: "Relative Pro";
+  src: url('../assets/fonts/Relative\ Pro.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Relative Pro";
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark-color);
+  box-shadow: var(--shadow-color);
+  padding: 15px 20px 15px 20px;
+}
+
+.header > .brand {
+  display: flex;
+  align-items: center;
+}
+
+.text-desc {
+  color: var(--gray-color);
+}
+
+.text-large {
+  font-size: 2.4rem;
+}
+
+.header > .brand > img {
+  height: 35px;
+  width: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.header > .brand > h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--gray-color);
+}
+
+.btn-grp {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-transparent.combo-btn > img:first-child {
+  padding-right: 10px;
+  border-right: 1px solid var(--gray-color);
+}
+
+.btn-transparent.combo-btn > img:last-child {
+  padding-left: 5px;
+}
+
+section {
+  border-bottom: 1px solid var(--text-dark-color);
+}
+
+
+#home-section {
+  margin: 0 7.7rem 0 7.7rem;
+  padding: 62px 32px 62px 32px;
+}
+
+#home-title {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.home-title-description {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  align-items: center;
+  padding-top: 62px;
+  padding-bottom: 15px;
+  gap: 10px;
+}
+
+.card {
+  background-color: var(--dark-color);
+  padding: 26px;
+  box-shadow: var(--shadow-color);
+  border: 1px solid var(--text-dark-color);
+  border-radius: 5px;
+  display: flex;
+  gap: 15px;
+  min-width: 380px;
+}
+
+.card-img {
+  height: 70px;
+}
+
+.card-transparent {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 320px;
+  font-size: 19px;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.text-center{
+  text-align: center;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.flex-end{
+  flex: flex-end;
+}
+
+.gap-sm {
+  gap: 10px;
+}
+
+.gap-lg {
+  gap: 20px;
+}
+
+#info-container{
+    margin: 0 7.7rem 0 7.7rem;
+    padding: 62px 32px 62px 32px;
+}
+
+.margin-top{
+  margin : 15px;
+}
+
+.margin-left{
+  margin-left: 22px;
+}
+
+footer {
+  width: 100vw;
+}
+
+.footer-section {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.romi-logo{
+    height: 35px;
+      width: 35px;
+      margin: 0;
+      padding: 0;
+}

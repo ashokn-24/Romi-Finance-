@@ -1,0 +1,11 @@
+:root {
+  --dark-color: #191919;
+  --dark-secondary: #151515;
+  --primary-color: #3eb489;
+  --secondary-color: #787982;
+  --light-color: #ffffff;
+  --gray-color: #a7a7a9;
+  --text-dark-color: #282829;
+  --shadow-color: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --gray-border-color:#4D4D4E;
+}
